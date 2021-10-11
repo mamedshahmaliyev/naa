@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="university">University is loading...</h1>
+    <table border=1 id="students_table">
+        <thead>
+            <tr style="background: red; color: white;">
+                <th>id</th>
+                <th>Name</th>
+                <th>Surname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">Loading...</td>
+            </tr>
+        </tbody>
+    </table>
+
+<script>
+    async function populate_student_list() {
+        const students_url = 'http://127.0.0.1:8008/students.php'
+        var students = await (await fetch(students_url)).json()
+
+        document.querySelector('#students_table tbody')
+            .innerHTML = students
+                            .map(
+                                s => `<tr>
+                                        <td>${s['id']}</td>
+                                        <td>${s['name']}</td>
+                                        <td>${s['surname']}</td>
+                                    </tr>`
+                            ).join('')
+
+        const university_url = 'http://127.0.0.1:8008/university.php'
+        var university = await (await fetch(university_url)).json()
+
+        document.getElementById('university').innerHTML = `${university['name']} (${university['short_name']}) `
+    }
+
+    populate_student_list()
+    
+</script>
+</body>
+</html>
