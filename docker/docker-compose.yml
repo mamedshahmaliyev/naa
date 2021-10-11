@@ -1,0 +1,39 @@
+version: "3"
+
+networks:
+  naa-network:
+    name: naa-network
+    external: false
+
+services:
+
+  naa1:
+    image: centos
+    command: tail -f /dev/null
+    container_name: naa1
+    hostname: naa1
+    privileged: true
+    networks:
+      - naa-network
+    # restart: unless-stopped
+
+  naa2:
+    image: centos
+    command: tail -f /dev/null
+    container_name: naa2
+    hostname: naa2
+    privileged: true
+    networks:
+      - naa-network
+    # restart: unless-stopped
+
+  naa3:
+    image: ubuntu
+    command: tail -f /dev/null
+    container_name: naa3
+    hostname: naa3
+    privileged: true
+    networks:
+      - naa-network
+    # restart: unless-stopped
+
