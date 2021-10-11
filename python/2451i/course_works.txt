@@ -1,0 +1,23 @@
+HƏŞİMOV MUHƏMMƏD XƏZƏR OĞLU is assigned to 6. Object Oriented Design – Implement Simple Courier Delivery Management System
+HƏSƏNOVA ŞÜKÜFƏ ELÇİN QIZI is assigned to 8. Object Oriented Design – Implement Event Management System
+ABASQULİZADƏ ƏLİ ELŞAD OĞLU is assigned to 10. Object Oriented Design – Implement Address Book
+MƏMMƏDOV CAVİD RƏHMAN is assigned to 16. Object Oriented Design – Implement Voting System
+QURBANOV RÜSTƏM ELŞAD OĞLU is assigned to 17. Object Oriented Design – Implement Expense Tracking Application
+MƏMMƏDOV CƏLAL ƏHMƏD is assigned to 18. Object Oriented Design – Implement Recipe Organizer System
+SADIQOV MURAD YAŞAR OĞLU is assigned to 4. Object Oriented Design – Implement Simple Car Rental System
+KƏRİMİ NİHAT RİZVAN OĞLU is assigned to 13. Object Oriented Design – Implement Calendar Application
+ALLAHVERDİYEVA RƏKSANƏ MƏMMƏD QIZI is assigned to 14. Object Oriented Design – Implement Forum Application
+QƏDİRLİ ƏZİMƏXANIM NƏSİMİ QIZI is assigned to 3. Object Oriented Design – Implement Simple Quiz System
+KƏRİMZADƏ ÇİNARƏ NATİQ QIZI is assigned to 22. Object Oriented Design – Implement Online Auction System
+BABAYEV MURAD NAMİQ OĞLU is assigned to 7. Object Oriented Design – Implement Chess Game
+ƏLİZADƏ XƏDİCƏ ELÇİN QIZI is assigned to 2. Object Oriented Design – Implement Simple Library Automation System
+POLADZADƏ ƏDHƏM FUAD OĞLU is assigned to 5. Object Oriented Design – Implement Simple Hotel Booking System
+HƏMİDOV HƏMİD ŞAHİN OĞLU is assigned to 15. Object Oriented Design – Implement Polling System
+YARMƏMMƏDOV RAUL ELÇİN OĞLU is assigned to 11. Object Oriented Design – Implement Medical Appointment System
+NOVRUZLU YUSİF QURBAN OĞLU is assigned to 23. Object Oriented Design – Implement Simple Online Trading System
+QƏMBƏROV NURLAN RÖVŞƏN OĞLU is assigned to 9. Object Oriented Design – Implement Tic-Tac-Toe Game
+MƏMMƏDOV CAVİD EMİL OĞLU is assigned to 1.Object Oriented Design – Implement Simple ATM
+MƏMMƏDOV DAVUD FUAD OĞLU is assigned to 12. Object Oriented Design – Implement Simple Inventory Management System
+HÜSEYNOV ELNUR ELMAN OĞLU is assigned to 19. Object Oriented Design – Implement Personal Blog Management System
+MİRZƏYEV AMAL AYDIN OĞLU is assigned to 21. Object Oriented Design – Implement Restaurant Ordering System
+MAHMUDOV NURLAN XƏQANİ OĞLU is assigned to 20. Object Oriented Design – Implement Task Management Application

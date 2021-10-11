@@ -1,0 +1,49 @@
+Vagrant.configure("2") do |config|
+
+    config.vm.provision "shell", path: "root_pass.sh"
+
+    config.vm.define "naa1" do |cnf|
+        cnf.vm.box = "generic/centos8"
+        cnf.vm.hostname = "naa1"
+        cnf.vm.network "private_network", ip: "192.168.139.131"
+  
+        cnf.vm.provider "virtualbox" do |vb|
+            vb.name = "naa1"
+            vb.gui = false
+            vb.memory = 256
+            vb.cpus = 1
+        end
+
+        config.vm.provision "shell", path: "selinux.sh"
+    end
+
+    config.vm.define "naa2" do |cnf|
+        cnf.vm.box = "generic/centos8"
+        cnf.vm.hostname = "naa2"
+        cnf.vm.network "private_network", ip: "192.168.139.132"
+  
+        cnf.vm.provider "virtualbox" do |vb|
+            vb.name = "naa2"
+            vb.gui = false
+            vb.memory = 256
+            vb.cpus = 1
+        end
+
+        config.vm.provision "shell", path: "selinux.sh"
+    end
+
+    config.vm.define "naa3" do |cnf|
+        cnf.vm.box = "ubuntu/trusty64"
+        cnf.vm.hostname = "naa3"
+        cnf.vm.network "private_network", ip: "192.168.139.133"
+  
+        cnf.vm.provider "virtualbox" do |vb|
+            vb.name = "naa3"
+            vb.gui = false
+            vb.memory = 256
+            vb.cpus = 1
+        end
+    end
+  
+  end
+  
